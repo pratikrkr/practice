@@ -3,4 +3,5 @@
 		 driver.get("https://www.irctc.com/contact.html");
 		 driver.close();
      driver.SwitchTo();
+     driver.get();
 
