@@ -2,5 +2,5 @@
  			driver.manager().window().maximize();
 		 driver.get("https://www.irctc.com/contact.html");
 		 driver.close();
-     driver.quite();
+     driver.quite()
 
