@@ -1,10 +1,11 @@
  WebDriver driver=new  ChromeDriver ();
  			driver.manager().window().maximize();
-			 			driver.manager().window().minimize();
-
+ 			 			driver.manager().window().minimize();
+ 			
 		 driver.get("https://www.irctc.com/contact.html");
+		 		 driver.get("https://www.irctc.com/contact.html");
+		 		 driver.get("https://www.google.com/");
+		 
 		 driver.close();
 		 
-     driver.SwitchTo();
-     driver.get();
-
+     driver.quite();
