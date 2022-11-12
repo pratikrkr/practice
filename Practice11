@@ -1,3 +1,6 @@
  WebDriver driver=new  ChromeDriver ();
+ 			driver.manager().window().maximize();
 		 driver.get("https://www.irctc.com/contact.html");
-     driver.quite
+		 driver.close();
+     driver.quite();
+
